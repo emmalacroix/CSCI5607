@@ -32,9 +32,9 @@ public:
 
     // Origin/direction access
     Coordinate GetOrigin () { return origin; }
-    float GetXDirection () { return x; }
-    float GetYDirection () { return y; }
-    float GetZDirection () { return z; }
+    float getXDir () { return x; }
+    float getYDir () { return y; }
+    float getZDir () { return z; }
 
     void SetOrigin (Coordinate new_origin) { origin = new_origin; }
     void SetDirection (float new_x, float new_y, float new_z) { x = new_x; y = new_y; z = new_z; }

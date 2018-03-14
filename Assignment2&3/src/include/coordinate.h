@@ -25,11 +25,11 @@ public:
     Coordinate (float x, float y, float z);
 
     // Origin/direction access
-    float GetX () { return x; }
-    float GetY () { return y; }
-    float GetZ () { return z; }
+    float getX () { return x; }
+    float getY () { return y; }
+    float getZ () { return z; }
 
-    void SetCoord (float new_x, float new_y, float new_z) { x=new_x; y=new_y; z=new_z; }
+    void setCoord (float new_x, float new_y, float new_z) { x=new_x; y=new_y; z=new_z; }
 };
 
 //component-wise addition of two coordinates

@@ -43,6 +43,10 @@ struct Pixel
     Pixel (Component r_=0, Component g_=0, Component b_=0, Component a_=255) : r(r_), g(g_), b(b_), a(a_) {}
     Pixel (uint8_t *data) : r(data[0]), g(data[1]), b(data[2]), a(data[3]) {}
 
+    //Getters
+    float getR(){ return r; }
+    float getG(){ return g; }
+    float getB(){ return b; }
 
     // Set
     void Set (Component  r_, Component  g_, Component  b_, Component  a_) { r=r_; g=g_; b=b_; a=a_; }
